@@ -1,0 +1,9 @@
+frontend/
+**/node_modules
+graph-engine/build
+**/.git
+**/.env
+**/*.md
+.vscode
+docker-compose.yml
+render.yaml
