@@ -11,29 +11,6 @@ nodelens/
 └── frontend/          ← React + Vite dashboard
 ```
 
-## Quick Start
-
-### 1. Build the C++ Engine
-```bash
-cd graph-engine
-make           
-# Binary at: graph-engine/graph-engine
-```
-
-### 2. Backend Setup
-```bash
-cd backend
-cp .env.example .env    
-npm install
-npm run dev             
-```
-
-### 3. Frontend Setup
-```bash
-cd frontend
-npm install
-npm run dev             
-```
 
 ## Environment Variables (backend/.env)
 
