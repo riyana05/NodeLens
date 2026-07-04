@@ -16,23 +16,23 @@ nodelens/
 ### 1. Build the C++ Engine
 ```bash
 cd graph-engine
-make           # downloads nlohmann/json and compiles
+make           
 # Binary at: graph-engine/graph-engine
 ```
 
 ### 2. Backend Setup
 ```bash
 cd backend
-cp .env.example .env    # fill in your DB credentials
+cp .env.example .env    
 npm install
-npm run dev             # starts on http://localhost:5000
+npm run dev             
 ```
 
 ### 3. Frontend Setup
 ```bash
 cd frontend
 npm install
-npm run dev             # starts on http://localhost:5173
+npm run dev             
 ```
 
 ## Environment Variables (backend/.env)
@@ -41,19 +41,11 @@ npm run dev             # starts on http://localhost:5173
 |---|---|
 | `MONGO_URI` | MongoDB Atlas connection string |
 | `NEO4J_URI` | Neo4j AuraDB bolt URI |
-| `NEO4J_USER` | Neo4j username (usually `neo4j`) |
+| `NEO4J_USER` | Neo4j username |
 | `NEO4J_PASSWORD` | Neo4j password |
 | `REDIS_URL` | Upstash Redis URL |
 | `JWT_SECRET` | Secret for signing JWT tokens |
 | `CPP_ENGINE_PATH` | Path to compiled C++ binary |
-
-## Database Setup
-
-| Service | Where to get | Free tier |
-|---|---|---|
-| MongoDB | atlas.mongodb.com | 512 MB forever |
-| Neo4j | console.neo4j.io | 200k nodes |
-| Redis | console.upstash.com | 10k cmds/day |
 
 ## API Endpoints
 
