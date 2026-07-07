@@ -107,6 +107,7 @@ PathResult findTrustPath(const Graph& g, int sourceIdx, int targetIdx) {
 //  F8: recommendFriends
 //  Finds topK reachable nodes (not already direct neighbours or self)
 //  ranked by trust score (highest first).
+
 std::vector<PathResult> recommendFriends(const Graph& g,
                                           int          sourceIdx,
                                           int          topK) {

@@ -46,7 +46,7 @@ export default function TrustRoute() {
 
   return (
     <div>
-      <PageHeader title="Trust Routing" subtitle="Find the highest-trust path between users. Enter usernames (e.g. arjun, priya)" badge="F8 · F13" />
+      <PageHeader title="Trust Routing" subtitle="Find the highest-trust path between users." badge="F8 · F13" />
 
       <div style={{ display:'flex', gap:'0.5rem', marginBottom:'1.5rem' }}>
         {[{id:'path',label:'Trust Path'},{id:'recommend',label:'Recommendations'}].map(m=>(

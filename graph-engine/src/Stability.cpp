@@ -1,4 +1,3 @@
-
 //  Stability.cpp
 //  F1:  Social Stability Score
 //  F9:  Community Conflict Predictor

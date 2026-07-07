@@ -73,7 +73,7 @@ export default function Dashboard() {
 
   return (
     <div>
-      <PageHeader title="Network Dashboard" subtitle="Global health metrics and real-time topology for your nodelens" badge="Live Analytics" />
+      <PageHeader title="Network Dashboard" subtitle="Global health metrics and real-time topology" badge="Live Analytics" />
 
       {error && (
         <div style={{ background:'rgba(232,120,173,0.1)', border:'1px solid rgba(232,120,173,0.3)', borderRadius:'var(--radius-md)', padding:'0.8rem 1.2rem', color:'#c04878', fontSize:'0.85rem', marginBottom:'1.5rem' }}>
